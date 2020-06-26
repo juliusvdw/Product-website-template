@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button
         class="navbar-toggler"
@@ -35,9 +35,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div
+        class="collapse navbar-collapse text-dark"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Home </a>
           </li>
           <li class="nav-item">
@@ -45,10 +48,17 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Product</a>
+            <a class="nav-link" href="#">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Order</a>
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="text-white" href="#">
+              <div class="btn btn-dark text-white nav-btn">
+                <strong>Order</strong>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
@@ -56,12 +66,35 @@
 
     <!-- Start of fullPage js sections-->
     <div id="fullpage">
-      <div class="section">Some Section</div>
+      <!-- First  fullPage section -->
+      <div class="section">
+        <div class="row h-100">
+          <!-- Left Side of first section-->
+          <div
+            class="col-lg-6 h-100 text-center text-light main-left-container"
+          >
+            <div class="h-100 mt-auto main-left-content">
+              <h1>Urban</h1>
+
+              <h1>Gardening</h1>
+
+              <h1 id="reinvented">Reinvented</h1>
+
+              <div class="btn btn-outline-light main-left-btn">
+                Learn More
+              </div>
+            </div>
+            <!-- Right Side of first section-->
+          </div>
+          <div class="col-lg-6 h-100 main-right-container">
+            Test
+          </div>
+        </div>
+      </div>
       <div class="section">Some section</div>
     </div>
 
     <!-- Insert scripts required for the page-->
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
       integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk="
