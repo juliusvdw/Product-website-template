@@ -5,6 +5,7 @@ body {
 .nav-btn {
   width: 100px !important;
   height: 39px;
+  background-color: rgb(27, 27, 27) !important;
 }
 
 .navbar-nav {
@@ -18,13 +19,17 @@ body {
 .nav-item {
   padding-right: 28px;
   font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
 }
 
 .nav-link {
   color: black !important;
-}
-.btn {
-  border-radius: 5px !important;
 }
 
 .btn:hover {
@@ -32,16 +37,23 @@ body {
 }
 
 .main-left-content {
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 .main-left-content h1 {
-  font-size: 5rem !important;
-  font-weight: 700;
+  font-size: 5.5rem !important;
+  font-weight: 600;
+  color: rgb(231, 231, 231);
+}
+
+.shadowcustom {
+  color: white;
+  font: bold 52px Helvetica, Arial, Sans-Serif !important;
+  text-shadow: 1px 1px 2px #fe02bf, 2px 2px #fe02bf, 3px 3px #fe4902;
 }
 
 .main-left-container {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(20, 20, 20);
 }
 
 .main-left-btn {
@@ -51,6 +63,14 @@ body {
   margin-top: 10px;
 }
 
+.btn {
+  transition: 0.25s !important;
+  border-radius: 5px !important;
+}
+.btn:hover {
+  transform: scale(1.05) !important;
+}
+
 #reinvented {
   color: rgb(46, 176, 219);
 }
@@ -58,6 +78,10 @@ body {
 .main-right-container {
   background: url("../assets/mainbackground.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 110%;
-  background-position: 0px -50px;
+  background-size: 90% 110%;
+  background-position: 50px -50px;
+}
+
+.section1 {
+  background-color: rgb(20, 20, 20);
 }
