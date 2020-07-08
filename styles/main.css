@@ -4,32 +4,37 @@ body {
 
 .nav-btn {
   width: 100px !important;
-  height: 39px;
-  background-color: rgb(27, 27, 27) !important;
+  height: 37px;
+  border-width: 1.5px !important;
+  font-size: 14px !important;
+  margin-right: 80px !important;
+  background-color: rgb(20, 20, 20) !important;
 }
 
 .navbar-nav {
-  padding-right: 70px;
+  padding-left: 140px !important;
 }
 
 .navbar {
-  padding-top: 25px !important;
+  padding-top: 15px !important;
+
+  height: 75px;
 }
 
 .nav-item {
   padding-right: 28px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
   transition: 0.25s;
 }
 
 .nav-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .nav-link {
-  color: black !important;
+  color: rgb(182, 182, 182) !important;
 }
 
 .btn:hover {
@@ -37,13 +42,13 @@ body {
 }
 
 .main-left-content {
-  padding-top: 20%;
+  padding-top: 22%;
 }
 
 .main-left-content h1 {
   font-size: 5.5rem !important;
   font-weight: 600;
-  color: rgb(231, 231, 231);
+  color: rgb(218, 218, 218);
 }
 
 .shadowcustom {
